@@ -32,7 +32,7 @@ describe('Pruebas en 08-imp-exp', () => {
 
         const heroes = getHeroesByOwner( owner );
 
-        console.log( heroes.length );
+        // console.log( heroes.length );
 
         expect( heroes.length ).toBe( 3 );
 
